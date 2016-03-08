@@ -1,0 +1,115 @@
+body{
+	font-family: 'Arial', sans-serif;
+	background: $background-color;
+	line-height: 1.5em;
+}
+.navbar{
+	overflow: auto;
+	min-height: 100pt;
+	background: $primary-color;
+	color: white;
+	font-size: 18pt;
+	border: 0;
+	border-radius: 0;
+}
+.navbar h1 {
+	margin: 10pt 0 0 0;
+}
+.navbar a{
+	color: #fff !important;
+}
+
+.navbar a:hover{
+	color: $secondary-color;
+}
+.navbar a.navbar-brand:hover {
+	color: #fff !important;
+}
+.navbar ul {
+	margin-top: 22pt;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background: none;
+	color: $secondary-color !important;
+}
+.search-form {
+	margin-top: 30pt;
+}
+.search-form input[type='text']{
+	border-radius: 0;
+	height: 30pt;
+}
+.search-form .form-group{
+	display: inline-block;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+.search-form .btn {
+	border: 0;
+	height: 30pt;
+	margin-top: 0;
+	border-radius: 0;
+	margin-left: -5px;
+}
+.search-form .form-control {
+	background: #f4f4f4;
+	border: 1px solid #eee;
+}
+
+.btn-primary {
+	background: $btn-color;
+}
+.btn:hover {
+	background: #ccc;
+}
+.post {
+	border: 1px solid #ccc;
+	background: #fff;
+	margin-bottom: 30pt;
+}
+.post img {
+	width: 100%;
+	max-height: 150px;
+}
+
+.post-content {
+	padding: 20pt;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.post h3 {
+	margin: 0;
+	padding: 0;
+}
+
+small {
+	background: $primary-color;
+	color: #fff;
+	display: block;
+	margin: 10pt 0;
+	padding: 5pt 10pt;
+}
+.post .btn{
+	display: block;
+	margin-top: 20pt;
+}
+.comments img{
+	width: 100%;
+}
+footer {
+	background: $primary-color;
+	color: #fff;
+	text-align: center;
+	height: 60pt;
+	padding-top: 20pt;
+	margin-top: 30pt;
+}
+
+
+
+
+
+
+
+
